@@ -1,0 +1,232 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+body
+{
+    background: lightblue;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    min-height: 100vh;
+}
+.Container
+{
+    position:relative;
+    width: 100%;
+    max-width: 1000px;
+    min-height: 1000px;
+    margin: 50px;
+    background:#fff;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    box-shadow: 0 35px 55px;
+}
+.Container .Left_Side
+{
+    position: relative;
+    background: gray;
+    padding: 40px;
+    
+}
+.Profile_Text
+{
+    position:relative;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+    border-bottom: 1px solid darkblue;
+}
+.Profile_Text .Img_Bx
+{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.Profile_Text h2
+{
+    color:#fff;
+    font-size: 1.5em;
+    margin-top: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 600;
+    line-height: 1.4em;
+}
+.Profile_Text h2 span
+{
+    font-weight: 300;
+    font-size: 0.8em;
+}
+.Contact_Info
+{
+    padding-top: 40px;
+}
+.title
+{
+    color: #fff;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+.Contact_Info ul
+{
+    position: relative;
+}
+.Contact_Info ul li
+{
+    position: relative;
+    list-style: none;
+    margin: 10px 0;
+    cursor: pointer;
+}
+.Contact_Info ul li .icon
+{
+    display:inline-block;
+    width: 30px;
+    font-size: 18px;
+    color: darkblue;
+}
+.Contact_Info ul li span
+{
+    color: #fff;
+    font-weight: 300;
+}
+.Education li
+{
+    margin-bottom: 15px;
+}
+.Education li h5
+{
+    color: darkblue;
+    font-weight: 500px;
+}
+.Education li h6:nth-child(2)
+{
+    color: #fff;
+    font-weight: 500px;
+    font-size: 0.9em;
+}
+.Education li h6
+{
+    color: #fff;
+    font-weight: 500px;
+    font-size: 0.9em;
+}
+.Container .Right_Side
+{
+    position: relative;
+    background: #fff;
+    padding: 40px;
+}
+.Objective
+{
+    padding-top: 20px;
+    padding-bottom: 20 px;
+    color: red;
+    position: relative;
+    font-weight: 600;
+    font-size: 1em;
+}
+.Objective p
+{
+    padding-top: 10px;
+    padding-bottom: 20px;
+    color: purple ;
+    position: relative;
+    font-weight: 600;
+    font-size: 0.9em;
+    padding-bottom: 20px;
+    letter-spacing: 0.5px;
+}
+.Hobbies
+{
+    padding-top: 20px;
+    color: red;
+    position: relative;
+    font-weight: 600;
+    font-size: 1em;
+}
+.Hobbies ul
+{
+    padding-top: 10px;
+    color: purple;
+    position: relative;
+    font-weight: 600;
+    font-size: 0.9em;
+    padding-bottom: 20px;
+    letter-spacing: 0.5px;
+}
+.Hobbies ul li
+{
+    padding-top: 5px;
+    position: relative;
+}
+.About_Me
+{
+    padding-top: 20px;
+    color:red;
+    position:relative;
+    font-weight: 600;
+    font-size: 1em;
+}
+.About_Me p
+{
+    padding-top: 10px;
+    color:purple;
+    position:relative;
+    font-size: 0.9em;
+    font-weight: 600;
+    padding-bottom: 20px;
+    letter-spacing: 0.5px;
+}
+.Skills
+{
+   padding-top: 20px;
+   color: red;
+   position: relative;
+   font-size: 1em;
+   font-weight: 600;
+}
+.Skills ul
+{
+    padding-top: 10px;
+    color: purple;
+    position: relative;
+    font-weight: 600;
+    font-size: 0.9em;
+    padding-bottom: 20px;
+    letter-spacing: 0.5px;
+}
+.Skills ul li
+{
+    padding-top: 5px;
+    position: relative;
+}
+.Experience 
+{
+    padding-top: 20px;
+}
+.Exp
+{
+    color: red;
+    font-weight: 600;
+    font-size: 1em;
+}
+.P
+{
+    padding-top: 10px;
+    position: relative;
+    font-weight: 600;
+    font-size: 0.9em;
+    color: purple;
+    padding-bottom: 20px;
+    letter-spacing: 0.5px;
+}
